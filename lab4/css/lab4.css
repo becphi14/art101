@@ -1,0 +1,47 @@
+img {
+width: 100%;
+ }
+
+body {
+ background-color: hotpink;
+}
+
+h1 {
+background-color: #f3b9e4;
+border:7px dotted;
+width: 750px;
+font-size: 250%;
+}
+
+#task1 {
+ border: 5px solid;
+ width: 600px;
+ padding: 10px;
+ background-color: #89d6d6;
+ font-size: 110%;
+ margin-bottom: 10px;
+}
+
+#task2 {
+ border: 5px solid;
+ width: 600px;
+ padding: 10px;
+ background-color: #34dede;
+ font-size: 110%;
+ margin-bottom: 10px;
+}
+
+ #task3 {
+ border: 5px solid;
+ width: 700px;
+ padding: 10px;
+ background-color: #1bb3b3;
+ font-size: 110%;
+ margin-bottom: 10px;
+ }
+
+pre {
+white-space: pre;
+display: inline;
+tab-size: 1;
+}

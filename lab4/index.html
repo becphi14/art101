@@ -2,10 +2,90 @@
 <html>
 <head>
 	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="css/lab4.css">
 </head>
 <body>
+	<h1>Lab 4 - Pseudocoding and Problem-solving<h1>
+	<h2> Challenge </h2>
+	<p> The idea of this lab was to practice pseudocoding,
+		and to break tasks down into a list of instructions that
+		we could then eventually code. <p>
+
+	<h2> Problems </h2>
+ 	<p> We had a lot of trouble coming up with ways to phrase our psuedocode
+		 comments for java script that were action-based and suscinct. We
+		 weren't sure of which phrases to use as we had little prior experience
+		 with coding. </p>
+
+	<h2> Results </h2>
+		<div id="task1">
+			<h3> Task 1 - Pseudocode an everyday task </h3>
+			<p> First we created a list of instructions for an everyday task:
+				How to Make Pasta!
+				<ol>
+					<li>Boil Water in a pot </li>
+					<li>Add Salt to water</li>
+					<li>Place noodles into boiling water</li>
+					<li>Wait until noodles are soft</li>
+					<li>Drain noodles in colander</li>
+					<li>Heat tomato sauce in separate pot</li>
+					<li>Mix finished noodles in with the sauce</li>
+					<li>Season to taste with salt and pepper</li>
+					<li>Eat!</li>
+				</ol>
+		</div>
+
+	<div id="task2">
+		<h3>Task 2 - Pseudocode a Computer Task</h3>
+		<p>Next, we created a list of instructions for a computer game: Connect4<p>
+			<ol>
+				<li>Create a 6x7 grid board before each game</li>
+				<li>Assign each player a color</li>
+					<ul>
+						<li>One player assigned blue, one player assigned yellow</li>
+					</ul>
+				<li>Receive user’s move</li>
+					<ul>
+						<li>Detect the row the user selects</li>
+						<li>Land their token in the next available bottom space in that row</li>
+					</ul>
+				<li>Confirm user’s move</li>
+				<li>Assess possible counter-moves</li>
+				<li>Select best counter-move</li>
+				<li>Test for Win! Condition</li>
+					<ul>
+						<li>Check for 4-in-a-row of one color (diagonally, horizontally, vertically)</li>
+					</ul>
+			</ol>
+	</div>
+
+	<div id="task3">
+		<h3>	Task 3: Turn Pseudocode into Comments </h3>
+		<p>Then, we turned our list of instructions into pseudocode in a JavaScript file:</p>
+		<img src=img/pseudocode-js.jpg>
+		<p>And here's what it looks like when put straight into this HTML file:</p>
+			<pre>
+					//Print a 6x7 grid board before each turn
+					  //Loop through each row
+					    //Loop through each space
+					      //Print a blue token, a yellow token, or space
+					    //Print a vertical line between
+					    //Print a horizontal line between
+					//Assign each player a color
+					  //Choose one player to be blue
+					    //Choose the remaining player to be yellow
+					//Receive user’s move
+					  //Detect the row the user selects
+					    //Land their token in the next available bottom space in that row
+					//Confirm user’s move
+					//Assess possible counter-moves
+					  //Analyse oponent's positions on the board
+					    //Test each possible move and outcome
+					//Select best counter-move
+					//Test for Win! Condition
+					  //Check for 4-in-a-row of one color (diagonally, horizontally, vertically)
+			</pre>
+	</div>
 
 </body>
 </html>
