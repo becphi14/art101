@@ -1,0 +1,21 @@
+img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+h1 {
+  color: #062f06;
+  padding: 20px;
+  font-family: font-family: 'Acme', sans-serif;
+}
+
+body {
+  background-color: #b8e6b8;
+  font-size: 130%;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+#lab-links {
+  
+}

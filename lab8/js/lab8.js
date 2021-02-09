@@ -7,15 +7,15 @@
 // Define Functions//
 
 function firstThing(test) {
-  console.log(test + " This is the first thing", "</br>");
+  console.log(test + " This is the first thing");
 }
 
 function secondThing(test) {
-  console.log(test + " This is the second thing", "</br>");
+  console.log(test + " This is the second thing");
 }
 
 function thirdThing(test) {
-  console.log(test + " This is the third thing", "</br>");
+  console.log(test + " This is the third thing");
 }
 
 //call the functions for TEST 1
