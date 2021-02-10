@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+img {
+  position: relative;
+  width: 40%;
+}

@@ -1,0 +1,36 @@
+h1 {
+    color: #771145;
+    font-size: 1000%;
+}
+
+h2 {
+  color: #8034a7;
+  font-size: 400%;
+}
+
+p {
+   font-family: "monospace";
+   font-size: 250%;
+   text-indent: 50px;
+   margin-left: 5px;
+}
+
+img {
+     width: 1500px;
+     margin-left: 20px;
+     border: solid 15px #9ebba3;
+     align-content: center;
+}
+
+#content {
+    background-color: #9ebba3;
+    width: 1500px;
+    min-height: 400px;
+    margin: 20px;
+    border: solid 10px #46293a;
+    text-align: center;
+}
+
+body {
+  background-color: #754752;
+}

@@ -1,12 +1,12 @@
 h1 {
   text-align: center;
-  color: #F55333;
+  color: #E84BEB;
   font-size: 250%;
   font-family: "Courier New";
 }
 h2 {
   text-align: center;
-  color: #F55333;
+  color: #E84BEB;
   font-size: 150%;
   font-family: "Courier New";
 
@@ -34,21 +34,24 @@ img {
   padding: 100px;
   margin-bottom: 30px;
 }
-p{
+#dream{
   font-family: "Courier New";
   text-align:center;
   color: #7c0272;
   border-style: groove;
   border-width: thick;
-  border-color: #58F5B6;
+  border-color: #9DEB6E;
   padding: 30px;
 }
 p.Dream{
   width: 50%;
   margin-bottom: 50px;
 }
-div.content {
-  background-color: #B7F540;
+
+#grad {
+  background-image: linear-gradient(pink, yellow, orange);
   padding-bottom: 50px;
   padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
