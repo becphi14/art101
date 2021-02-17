@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+      <link rel="stylesheet" type="text/css" href="css/lab10.css">
+      <title>Lab 10: JavaScript Events and Forms</title>
+      <script src="js/lab10.js" defer> </script>
+  </head>
+  <body>
+    <div id="grad">
+      <h1>Lab 10: JavaScript Events and Forms</h1>
+    </div>
+
+    <div id="dream">
+
+      <h2>Challenge</h2>
+        <p>The idea of this lab was to experiment with JavaScript events,
+        and to create an input box with a submit button. The user's input
+        will then get shuffled and turned into a new username for them.</p>
+      <h2>Problems</h2>
+        <p>We had several problems with this lab. First, in our Lab 7 function
+        that we copied over, we had to remove the pop-up window. We were not
+        sure of what to define userName as in the pop-up window's place, and in
+        putting the wrong thing, our function showed more errors in the console –
+        specifically that "userName.split" was not a function. Additionally, we
+        struggled with finding a way to run the input value through the nameSorter
+        function and then saving the results to appear as the output with the
+        addEventListener function. After a lot of time spent and trial and error,
+        along with some clarification from class, we finally got it to work.</p>
+      <h2>Results</h2>
+        <p>Our results are below. Prepare for new username!</p>
+        <p>Input Your Name:</p>
+          <input type="text" id="user-name"></input>
+          <button id="my-button">Submit</button>
+
+          <p>Your new username:</p>
+          <br><div id="output"></div></br>
+
+    </div>
+
+  </body>
+</html>
