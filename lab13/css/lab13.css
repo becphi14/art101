@@ -1,0 +1,46 @@
+ h1{
+   font-family: fantasy;
+   text-align: center;
+   color: #c4c9dfc1;
+   font-size: 250%;
+   font: "papyrus";
+}
+
+  h2 {
+  text-align: center;
+  color: #4c7cdf;
+  font-size: 150%;
+  font-family: fantasy;
+}
+
+
+#content{
+  border: dotted;
+  font-family: "Courier New";
+  text-align: center;
+  color: #e1daed;
+  font-size: 110%;
+  border-style: dotted;
+  border-width: thick;
+  border-color: #b1cddcd4;
+  background: #1a2527;
+  padding: 20px;
+}
+
+
+#header {
+  background-image: linear-gradient(to bottom right, #0606b5, #33e633);
+  opacity: 0.6;
+  padding: 10px;
+}
+
+#output {
+  padding: 10px;
+  font-family: fantasy;
+  color: #d466d3;
+  font-size: 90%;
+  column-count: 5;
+  column-gap: 40px;
+  column-rule: 1px dotted lightgreen;
+  column-width: 140px;
+}
