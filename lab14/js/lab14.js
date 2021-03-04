@@ -6,7 +6,7 @@
 
 // Lab 13: Loops
 
-debugger;
+
 // Create a "FizzBuzz" function similar to how we did in class.
   function fizzBuzz() {
   // Loop through numbers 1 to 200, listing them as you go
